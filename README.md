@@ -1,2 +1,3 @@
-# wgs-sample-qc
-Repository to host ongoing discussions by GHIF members on developing a reference implementation for QC of WGS results
+# Practical guidelines for quality control of WGS results in population-scale initiatives
+
+Participating initiatives in the Genomics in Health Implementation Forum ([GHIF](https://www.ga4gh.org/community/ghif/)) have identified a need for a reference implementation of QC metrics that can be used for routine assessment of WGS results. Such reference implementation would complement existing benchmarking resources (e.g. GIAB) and QC guidelines (e.g. ACMG, MGI, SEQC-II) by providing (i) standardised definitions for key QC metrics, (ii) tools for calculating them, and (iii) benchmarking resources that would aid in the interpretation and monitoring of results. This repository hosts the work from ongoing discussions on the topic.
