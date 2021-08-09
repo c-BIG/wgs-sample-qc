@@ -1,0 +1,436 @@
+{
+  "items": [
+    {
+      "categ": "Raw data",
+      "measure_name": "READS_TOTAL",
+      "measure_full": "Reads total",
+      "description": "Total number of sequences"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "TOTAL_BASES",
+      "measure_full": "Bases total",
+      "description": "Total number of bases"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "BASES_ABOVE_Q30",
+      "measure_full": "Bases above Q30 (%)",
+      "description": "Bases with quality over 30 or 99.9% accuracy"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "BASES_ABOVE_Q20",
+      "measure_full": "Bases above Q20 (%)",
+      "description": "Bases with quality over 20 or 99% accuracy"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "MEAN_QUALITY",
+      "measure_full": "Base quality (average)",
+      "description": "Average base quality (Phred scale)"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "GC_CONTENT",
+      "measure_full": "GC content (%)",
+      "description": "Abnormal GC content percentage can indicate contamination"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "N_CONTENT",
+      "measure_full": "N content (%)",
+      "description": "Percentage of N bases"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "READ_LENGTH_MEDIAN",
+      "measure_full": "Read length (median)",
+      "description": "Read length (median)"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "READ_LENGTH_MIN",
+      "measure_full": "Read length (minimum)",
+      "description": "Read length (minimum)"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "READ_LENGTH_MAX",
+      "measure_full": "Read length (maximum)",
+      "description": "Read length (maximum)"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "DISTINCT_READS",
+      "measure_full": "Distinct reads (%)",
+      "description": "Estimation of the number of distinct sequences (lower limit)"
+    },
+    {
+      "categ": "Raw data",
+      "measure_name": "CONTAMINATED_READS",
+      "measure_full": "Contaminated reads (%)",
+      "description": "Estimated percentage of reads containing contaminant sequences"
+    },
+    {
+      "categ": "Raw data (Untrimmed)",
+      "measure_name": "UNTRIMMED_READS_TOTAL",
+      "measure_full": "Untrimmed reads total",
+      "description": "Total number of sequences before trimming"
+    },
+    {
+      "categ": "Raw data (Untrimmed)",
+      "measure_name": "UNTRIMMED_TOTAL_BASES",
+      "measure_full": "Untrimmed bases total",
+      "description": "Total number of bases before trimming"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "READ_DEPTH_AVG",
+      "measure_full": "Read depth (average)",
+      "description": "Average read depth on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "READ_DEPTH_MEDIAN",
+      "measure_full": "Read depth (median)",
+      "description": "Median read depth on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "UNIFORMITY",
+      "measure_full": "Uniformity (%)",
+      "description": "Coverage at 10 % of median read depth on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "OFF_TARGET",
+      "measure_full": "Off target (%)",
+      "description": "Reads mapped outside the target region. Reads overlapping partially are regarded as on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "READS_MAPPED",
+      "measure_full": "Reads mapped (%)",
+      "description": "Percentage of reads mapped"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "READS_MQ0",
+      "measure_full": "Mapping quality 0 (%)",
+      "description": "Percentage of mapped with mapping quality 0"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "ERROR_RATE",
+      "measure_full": "Error rate on target",
+      "description": "Mismatches on target / bases mapped on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "ERROR_RATE_WHOLE",
+      "measure_full": "Error rate",
+      "description": "Mismatches / bases mapped"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "INSERT_SIZE_AVG",
+      "measure_full": "Insert size (average)",
+      "description": "Average insert size on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "INSERT_SIZE_STDDEV",
+      "measure_full": "Insert size (standard deviation)",
+      "description": "Standard deviation of insert size on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "INSERT_SIZE_MEDIAN",
+      "measure_full": "Insert size (median)",
+      "description": "Median insert size on target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "READS_PAIRED",
+      "measure_full": "Reads paired (%)",
+      "description": "Reads paired / reads total. Usually 100% for paired end data and 0% for single end data."
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "READS_PROPERLY_PAIRED",
+      "measure_full": "Reads properly paired (%)",
+      "description": "Reads properly paired / reads total."
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "INWARD_ORIENTED_PAIRS",
+      "measure_full": "Pairs inward oriented (%)",
+      "description": null
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "OUTWARD_ORIENTED_PAIRS",
+      "measure_full": "Pairs outward oriented (%)",
+      "description": null
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "PAIRS_OTHER_ORIENT",
+      "measure_full": "Pairs with other orientation (%)",
+      "description": null
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "PAIRS_ON_DIFF_CHR",
+      "measure_full": "Pairs on different chromosome (%)",
+      "description": null
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "AMP_DROPOUTS",
+      "measure_full": "Feature, complete dropout",
+      "description": "Number of amplicons having average read depth less than threshold"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "PARTIAL_AMPS",
+      "measure_full": "Feature, partially covered (Gap)",
+      "description": "Number of amplicons without full coverage due to insufficient high quality bases"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "COVERAGE_1X",
+      "measure_full": "Coverage at 1X (%)",
+      "description": "Percentage of bases with read depth 1 on the target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "COVERAGE_10X",
+      "measure_full": "Coverage at 10X (%)",
+      "description": "Percentage of bases with read depth 10 on the target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "COVERAGE_20X",
+      "measure_full": "Coverage at 20X (%)",
+      "description": "Percentage of bases with read depth 20 on the target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "COVERAGE_30X",
+      "measure_full": "Coverage at 30X (%)",
+      "description": "Percentage of bases with read depth 30 on the target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "COVERAGE_50X",
+      "measure_full": "Coverage at 50X (%)",
+      "description": "Percentage of bases with read depth 50 on the target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "COVERAGE_100X",
+      "measure_full": "Coverage at 100X (%)",
+      "description": "Percentage of bases with read depth 100 on the target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "COVERAGE_500X",
+      "measure_full": "Coverage at 500X (%)",
+      "description": "Percentage of bases with read depth 500 on the target"
+    },
+    {
+      "categ": "Alignment (Technical target)",
+      "measure_name": "READS_DUPLICATED",
+      "measure_full": "Proportion of reads marked as duplicates",
+      "description": "Proportion of reads that are duplicates from PCR or are optical duplicates."
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_READ_DEPTH_AVG",
+      "measure_full": "Read depth (average)",
+      "description": "Average read depth on target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_READ_DEPTH_MEDIAN",
+      "measure_full": "Read depth (median)",
+      "description": "Median read depth on target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_UNIFORMITY",
+      "measure_full": "Uniformity (%)",
+      "description": "Coverage at 10 % of median read depth on target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_ERROR_RATE",
+      "measure_full": "Error rate on target",
+      "description": "Mismatches on target / bases mapped on target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_AMP_DROPOUTS",
+      "measure_full": "Feature, complete dropout",
+      "description": "Number of amplicons having average read depth less than threshold"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_PARTIAL_AMPS",
+      "measure_full": "Feature, partially covered (Gap)",
+      "description": "Number of amplicons without full coverage due to insufficient high quality bases"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_COVERAGE_1X",
+      "measure_full": "Coverage at 1X (%)",
+      "description": "Percentage of bases with read depth 1 on the target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_COVERAGE_10X",
+      "measure_full": "Coverage at 10X (%)",
+      "description": "Percentage of bases with read depth 10 on the target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_COVERAGE_20X",
+      "measure_full": "Coverage at 20X (%)",
+      "description": "Percentage of bases with read depth 20 on the target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_COVERAGE_30X",
+      "measure_full": "Coverage at 30X (%)",
+      "description": "Percentage of bases with read depth 30 on the target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_COVERAGE_50X",
+      "measure_full": "Coverage at 50X (%)",
+      "description": "Percentage of bases with read depth 50 on the target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_COVERAGE_100X",
+      "measure_full": "Coverage at 100X (%)",
+      "description": "Percentage of bases with read depth 100 on the target"
+    },
+    {
+      "categ": "Alignment (Clinical target)",
+      "measure_name": "CLI_COVERAGE_500X",
+      "measure_full": "Coverage at 500X (%)",
+      "description": "Percentage of bases with read depth 500 on the target"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "TI_TV",
+      "measure_full": "Ti/Tv",
+      "description": "The ratio of transitions vs. transversions in SNPs. Low value indicates increase in false positives."
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "AVG_QUALITY",
+      "measure_full": "Quality of calls (median)",
+      "description": "Median quality of variant calls"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "MEDIAN_DEPTH",
+      "measure_full": "Depth at calls (median)",
+      "description": "Median read depth at called variants"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "SNPS",
+      "measure_full": "SNPs",
+      "description": "Number of SNPs"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "SNPS_X",
+      "measure_full": "SNPs on chromosome X",
+      "description": "Number of SNPs on chromosome X"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "SNPS_Y",
+      "measure_full": "SNPs on chromosome Y",
+      "description": "Number of SNPs on chromosome Y"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "INDELS",
+      "measure_full": "Indels",
+      "description": "Number of indels"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "PERC_SB_PASSED",
+      "measure_full": "Variants passing strand bias filter (%)",
+      "description": "Strand bias showes a strong difference between the variants passing validation and those that failed"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "DEL_SIZE_MEDIAN",
+      "measure_full": "Deletion size (median)",
+      "description": null
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "DEL_SIZE_MAX",
+      "measure_full": "Deletion size (max)",
+      "description": null
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "INS_SIZE_MEDIAN",
+      "measure_full": "Insertion size (median)",
+      "description": null
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "INS_SIZE_MAX",
+      "measure_full": "Insertion size (max)",
+      "description": null
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "HET_HOM_SNP",
+      "measure_full": "Het:hom ratio (SNP)",
+      "description": "Heterozygous / homozygous SNPs"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "HET_HOM_SNP_X",
+      "measure_full": "Het:hom ratio (SNP) on chromosome X",
+      "description": "Heterozygous / homozygous SNPs on chromosome X"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "HET_HOM_SNP_Y",
+      "measure_full": "Het:hom ratio (SNP) on chromosome Y",
+      "description": "Heterozygous / homozygous SNPs on chromosome Y"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "HET_HOM_INDEL",
+      "measure_full": "Het:hom ratio (Indel)",
+      "description": "Heterozygous / homozygous Indels"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "HIGH_QUALITY_SNP",
+      "measure_full": "SNPs above quality threshold (%)",
+      "description": "Percentage of SNPs having quality greater than the threshold set in the SOP"
+    },
+    {
+      "categ": "Variant calling",
+      "measure_name": "HIGH_QUALITY_INDEL",
+      "measure_full": "Indels above quality threshold (%)",
+      "description": "Percentage of Indels  having quality greater than the threshold set in the SOP"
+    }
+  ]
+}
