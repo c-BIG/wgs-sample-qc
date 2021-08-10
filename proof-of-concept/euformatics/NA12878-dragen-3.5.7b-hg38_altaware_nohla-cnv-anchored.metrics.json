@@ -1,0 +1,189 @@
+{
+  "id": 227193,
+  "sample_key": "NA12878-dragen-3.5.7b-hg38_altaware_nohla-cnv-anchored",
+  "run_date": "2021-08-09T12:36:49+0000",
+  "created": "2021-08-09T12:36:49+0000",
+  "updated": "2021-08-09T15:10:34+0000",
+  "organization_id": 1,
+  "device": {
+    "id": 7346,
+    "name": "NovaSeq 6000",
+    "platform": {
+      "id": 1124,
+      "seq_model": "NovaSeq 6000",
+      "manufacturer": "Illumina"
+    }
+  },
+  "sop": {
+    "id": 18565,
+    "name": "ilmn-dragen-1kgp",
+    "kit": {
+      "id": 2,
+      "name": "WGS",
+      "manufacturer": null,
+      "categ": {
+        "id": 1,
+        "name": "Whole Genome"
+      }
+    },
+    "base_qual_thresh": 2
+  },
+  "sample_type": {
+    "id": 1,
+    "name": "Fresh"
+  },
+  "organism": "Homo sapiens",
+  "tissue": "Unknown",
+  "trashed": false,
+  "sample_meta": {},
+  "qc_metrics": {
+    "READS_TOTAL": {
+      "value": 758135204
+    },
+    "TOTAL_BASES": {
+      "value": 113720280600
+    },
+    "BASES_ABOVE_Q30": {
+      "value": 96.8
+    },
+    "BASES_ABOVE_Q20": {
+      "value": 97.6
+    },
+    "MEAN_QUALITY": {
+      "value": 29.4
+    },
+    "GC_CONTENT": {
+      "value": 41.2
+    },
+    "N_CONTENT": {
+      "value": 0.0015
+    },
+    "READ_LENGTH_MEDIAN": {
+      "value": 150
+    },
+    "READ_LENGTH_MIN": {
+      "value": 150
+    },
+    "READ_LENGTH_MAX": {
+      "value": 150
+    },
+    "DISTINCT_READS": {
+      "value": 45.6
+    },
+    "READ_DEPTH_AVG": {
+      "value": 36
+    },
+    "READ_DEPTH_MEDIAN": {
+      "value": 36
+    },
+    "UNIFORMITY": {
+      "value": 93.2
+    },
+    "READS_MAPPED": {
+      "value": 100
+    },
+    "READS_MQ0": {
+      "value": 5.464
+    },
+    "ERROR_RATE": {
+      "value": 0.0047
+    },
+    "ERROR_RATE_WHOLE": {
+      "value": 0.0047
+    },
+    "INSERT_SIZE_AVG": {
+      "value": 439.9
+    },
+    "INSERT_SIZE_STDDEV": {
+      "value": 98.9
+    },
+    "INSERT_SIZE_MEDIAN": {
+      "value": 432
+    },
+    "READS_PAIRED": {
+      "value": 100
+    },
+    "READS_PROPERLY_PAIRED": {
+      "value": 98.1
+    },
+    "INWARD_ORIENTED_PAIRS": {
+      "value": 98.2
+    },
+    "OUTWARD_ORIENTED_PAIRS": {
+      "value": 0.3
+    },
+    "PAIRS_OTHER_ORIENT": {
+      "value": 0.1
+    },
+    "PAIRS_ON_DIFF_CHR": {
+      "value": 1.4
+    },
+    "COVERAGE_1X": {
+      "value": 93.5
+    },
+    "COVERAGE_10X": {
+      "value": 92.7
+    },
+    "COVERAGE_20X": {
+      "value": 91
+    },
+    "COVERAGE_30X": {
+      "value": 76.9
+    },
+    "COVERAGE_50X": {
+      "value": 6.1
+    },
+    "COVERAGE_100X": {
+      "value": 0.3
+    },
+    "COVERAGE_500X": {
+      "value": 0
+    },
+    "READS_DUPLICATED": {
+      "value": 0.107
+    },
+    "TI_TV": {
+      "value": 1.972
+    },
+    "AVG_QUALITY": {
+      "value": 50
+    },
+    "MEDIAN_DEPTH": {
+      "value": 32
+    },
+    "SNPS": {
+      "value": 3976474
+    },
+    "SNPS_X": {
+      "value": 124526
+    },
+    "INDELS": {
+      "value": 965695
+    },
+    "PERC_SB_PASSED": {
+      "value": 99.8
+    },
+    "DEL_SIZE_MEDIAN": {
+      "value": 2
+    },
+    "DEL_SIZE_MAX": {
+      "value": 252
+    },
+    "INS_SIZE_MEDIAN": {
+      "value": 1
+    },
+    "INS_SIZE_MAX": {
+      "value": 782
+    },
+    "HET_HOM_SNP": {
+      "value": 1.6
+    },
+    "HET_HOM_SNP_X": {
+      "value": 1.5
+    },
+    "HET_HOM_INDEL": {
+      "value": 2
+    }
+  },
+  "amplicon_qc_metrics": null
+}
