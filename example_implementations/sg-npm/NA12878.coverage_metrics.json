@@ -1,0 +1,173 @@
+{
+    "sample_id": "NA12878",
+    "qc_metrics": {
+        "mean_autosome_coverage": {
+            "description": "The mean coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 30.2824
+        },
+        "sd_autosome_coverage": {
+            "description": "The standard deviation of coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 27.1681
+        },
+        "median_autosome_coverage": {
+            "description": "The median coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 32.22
+        },
+        "mad_autosome_coverage": {
+            "description": "The median absolute deviation of coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 2.54
+        },
+        "total_autosome_bases": {
+            "description": "The number of non-N bases in autosomes over which coverage will be evaluated.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 2875001522
+        },
+        "pct_autosomes_1x": {
+            "description": "The percentage of bases that attained at least 1X sequence coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 93.276
+        },
+        "pct_autosomes_5x": {
+            "description": "The percentage of bases that attained at least 5X sequence coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 92.6945
+        },
+        "pct_autosomes_10x": {
+            "description": "The percentage of bases that attained at least 10X sequence coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 92.3202
+        },
+        "pct_autosomes_15x": {
+            "description": "The percentage of bases that attained at least 15X sequence coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 91.9554
+        },
+        "pct_autosomes_20x": {
+            "description": "The percentage of bases that attained at least 20X sequence coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 91.4881
+        },
+        "pct_autosomes_25x": {
+            "description": "The percentage of bases that attained at least 25X sequence coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 90.2523
+        },
+        "pct_autosomes_30x": {
+            "description": "The percentage of bases that attained at least 30X sequence coverage in autosomes, after coverage filters are applied.",
+            "source": "In-house tool based on mosdepth 0.2.6",
+            "implementation_details": {
+                "REF": "GRCh38 (## refget checksum ##)",
+                "BED": "/data/NPM-sample-qc/proof_of_concept/Homo_sapiens_assembly38.autosomes.bed",
+                "MIN_BQ": 0,
+                "MIN_MQ": "20",
+                "DUP": false,
+                "CLP": false,
+                "UMI": false
+            },
+            "value": 71.97
+        }
+    }
+}
