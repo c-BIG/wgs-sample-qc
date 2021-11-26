@@ -1,0 +1,413 @@
+{
+    "sample": {
+        "center": "SickKids Diagnostic Lab",
+	"name": "NA12878",
+	"dragen_version": "dragen3.7",
+	"reference": "GRCh38"
+    },
+    "Total input reads": {
+        "value": 758135204
+    },
+    "Number of duplicate marked reads": {
+        "value": 81147880
+    },
+    "Number of duplicate marked and mate reads removed": {
+        "value": "NA"
+    },
+    "Number of unique reads (excl. duplicate marked reads)": {
+        "value": 676987324
+    },
+    "Number of unique reads (excl. duplicate marked reads) %": {
+        "value": 89.3
+    },
+    "Reads with mate sequenced": {
+        "value": 758135204
+    },
+    "Reads without mate sequenced": {
+        "value": 0
+    },
+    "QC-failed reads": {
+        "value": 0
+    },
+    "Mapped reads R1": {
+        "value": 378904131
+    },
+    "Mapped reads R1 %": {
+        "value": 99.96
+    },
+    "Mapped reads R2": {
+        "value": 377392046
+    },
+    "Mapped reads R2 %": {
+        "value": 99.56
+    },
+    "Number of unique & mapped reads (excl. duplicate marked reads)": {
+        "value": 675148297
+    },
+    "Unmapped reads": {
+        "value": 1839027
+    },
+    "Unmapped reads %": {
+        "value": 0.24
+    },
+    "Singleton reads (itself mapped; mate unmapped)": {
+        "value": 1672371
+    },
+    "Paired reads (itself & mate mapped)": {
+        "value": 754623806
+    },
+    "Properly paired reads": {
+        "value": 743707122
+    },
+    "Properly paired reads %": {
+        "value": 98.1
+    },
+    "Paired reads mapped to different chromosomes": {
+        "value": 8048444
+    },
+    "Reads with MAPQ [40:inf)": {
+        "value": 694068738
+    },
+    "Reads with MAPQ [30:40)": {
+        "value": 2510517
+    },
+    "Reads with MAPQ [20:30)": {
+        "value": 5886933
+    },
+    "Reads with MAPQ [10:20)": {
+        "value": 8594189
+    },
+    "Reads with MAPQ [ 0:10)": {
+        "value": 45235800
+    },
+    "Reads with MAPQ NA (Unmapped reads)": {
+        "value": 1839027
+    },
+    "Reads with indel R1": {
+        "value": 11031669
+    },
+    "Reads with indel R2": {
+        "value": 10831676
+    },
+    "Total bases": {
+        "value": 113720280600
+    },
+    "Total bases R1": {
+        "value": 56860140300
+    },
+    "Total bases R2": {
+        "value": 56860140300
+    },
+    "Mapped bases R1": {
+        "value": 56835619650
+    },
+    "Mapped bases R2": {
+        "value": 56608806900
+    },
+    "Soft-clipped bases R1": {
+        "value": 439573140
+    },
+    "Soft-clipped bases R2": {
+        "value": 728533564
+    },
+    "Mismatched bases R1": {
+        "value": 247714549
+    },
+    "Mismatched bases R2": {
+        "value": 288253786
+    },
+    "Q30 bases R1": {
+        "value": 55498286710
+    },
+    "Q30 bases R1 %": {
+        "value": 97.6
+    },
+    "Q30 bases R2": {
+        "value": 54568607367
+    },
+    "Q30 bases R2 %": {
+        "value": 95.97
+    },
+    "Total alignments": {
+        "value": 776072247
+    },
+    "Secondary alignments": {
+        "value": 0
+    },
+    "Supplementary (chimeric) alignments": {
+        "value": 19776070
+    },
+    "Estimated read length": {
+        "value": 150
+    },
+    "Bases in reference genome": {
+        "value": 3685822435
+    },
+    "Average sequenced coverage over genome": {
+        "value": 30.85
+    },
+    "Insert length: mean": {
+        "value": 445.08
+    },
+    "Insert length: median": {
+        "value": 439
+    },
+    "Insert length: standard deviation": {
+        "value": 67.96
+    },
+    "Provided sex chromosome ploidy": {
+        "value": "XX"
+    },
+    "Estimated sample contamination": {
+        "value": 0
+    },
+    "DRAGEN mapping rate [mil. reads/second]": {
+        "value": 0.61
+    },
+    "Reads Processed": {
+        "value": 649663141
+    },
+    "Total": {
+        "value": 4989620
+    },
+    "Biallelic": {
+        "value": 4801685
+    },
+    "Multiallelic": {
+        "value": 187935
+    },
+    "SNPs": {
+        "value": 4016022
+    },
+    "Insertions (Hom)": {
+        "value": 167604
+    },
+    "Insertions (Het)": {
+        "value": 305157
+    },
+    "Deletions (Hom)": {
+        "value": 160344
+    },
+    "Deletions (Het)": {
+        "value": 315758
+    },
+    "Indels (Het)": {
+        "value": 24444
+    },
+    "Chr X number of SNPs over genome": {
+        "value": 126128
+    },
+    "Chr Y number of SNPs over genome": {
+        "value": 0
+    },
+    "(Chr X SNPs)/(chr Y SNPs) ratio over genome": {
+        "value": "NA"
+    },
+    "SNP Transitions": {
+        "value": 3710823
+    },
+    "SNP Transversions": {
+        "value": 1886793
+    },
+    "Ti/Tv ratio": {
+        "value": 1.97
+    },
+    "Heterozygous": {
+        "value": 3079522
+    },
+    "Homozygous": {
+        "value": 1910098
+    },
+    "Het/Hom ratio": {
+        "value": 1.61
+    },
+    "In dbSNP": {
+        "value": 0
+    },
+    "Not in dbSNP": {
+        "value": 0
+    },
+    "Genotype": {
+        "value": "XX"
+    },
+    "Average alignment coverage over genome": {
+        "value": 29.8
+    },
+    "Number of target intervals": {
+        "value": 2430115
+    },
+    "Number of segments": {
+        "value": 2127
+    },
+    "Number of amplifications": {
+        "value": 123
+    },
+    "Number of deletions": {
+        "value": 551
+    },
+    "Number of passing amplifications": {
+        "value": 77
+    },
+    "Number of passing deletions": {
+        "value": 92
+    },
+    "Number of deletions (PASS)": {
+        "value": 4888
+    },
+    "Number of insertions (PASS)": {
+        "value": 5845
+    },
+    "Number of duplications (PASS)": {
+        "value": 38
+    },
+    "Number of breakend pairs (PASS)": {
+        "value": 1003
+    },
+    "Uniformity of coverage (PCT > 0.2*mean) over genome": {
+        "value": 95.86
+    },
+    "PCT of genome with coverage [ 50x:100x)": {
+        "value": 0.74
+    },
+    "PCT of genome with coverage [ 20x: 50x)": {
+        "value": 92.57
+    },
+    "PCT of genome with coverage [ 15x: 20x)": {
+        "value": 1.76
+    },
+    "PCT of genome with coverage [ 10x: 15x)": {
+        "value": 0.52
+    },
+    "PCT of genome with coverage [  3x: 10x)": {
+        "value": 0.59
+    },
+    "PCT of genome with coverage [  1x:  3x)": {
+        "value": 0.35
+    },
+    "PCT of genome with coverage [  0x:  1x)": {
+        "value": 3.43
+    },
+    "Average chr X coverage over genome": {
+        "value": 20.48
+    },
+    "Average chr Y coverage over genome": {
+        "value": 0.9
+    },
+    "Average mitochondrial coverage over genome": {
+        "value": 11827.8
+    },
+    "Average autosomal coverage over genome": {
+        "value": 31.2
+    },
+    "Median autosomal coverage over genome": {
+        "value": 31.32
+    },
+    "Mean/Median autosomal coverage ratio over genome": {
+        "value": 1
+    },
+    "Percent SNVs in large ROH ( >= 3000000)": {
+        "value": 0.139
+    },
+    "Number of large ROH ( >= 3000000)": {
+        "value": 1
+    },
+    "Autosomal median coverage": {
+        "value": 36.89
+    },
+    "1 median / Autosomal median": {
+        "value": 1.01
+    },
+    "2 median / Autosomal median": {
+        "value": 0.99
+    },
+    "3 median / Autosomal median": {
+        "value": 0.99
+    },
+    "4 median / Autosomal median": {
+        "value": 0.98
+    },
+    "5 median / Autosomal median": {
+        "value": 0.99
+    },
+    "6 median / Autosomal median": {
+        "value": 0.99
+    },
+    "7 median / Autosomal median": {
+        "value": 0.99
+    },
+    "8 median / Autosomal median": {
+        "value": 0.99
+    },
+    "9 median / Autosomal median": {
+        "value": 1.01
+    },
+    "10 median / Autosomal median": {
+        "value": 1
+    },
+    "11 median / Autosomal median": {
+        "value": 1
+    },
+    "12 median / Autosomal median": {
+        "value": 1
+    },
+    "13 median / Autosomal median": {
+        "value": 0.98
+    },
+    "14 median / Autosomal median": {
+        "value": 1
+    },
+    "15 median / Autosomal median": {
+        "value": 1.01
+    },
+    "16 median / Autosomal median": {
+        "value": 1.02
+    },
+    "17 median / Autosomal median": {
+        "value": 1.02
+    },
+    "18 median / Autosomal median": {
+        "value": 0.98
+    },
+    "19 median / Autosomal median": {
+        "value": 1.04
+    },
+    "20 median / Autosomal median": {
+        "value": 1.02
+    },
+    "21 median / Autosomal median": {
+        "value": 1
+    },
+    "22 median / Autosomal median": {
+        "value": 1.05
+    },
+    "X median / Autosomal median": {
+        "value": 0.96
+    },
+    "Y median / Autosomal median": {
+        "value": 0
+    },
+    "Remaining poly-G K-mers R1 3prime": {
+        "value": 260824
+    },
+    "Remaining poly-G K-mers R1 3prime %": {
+        "value": 0.07
+    },
+    "Remaining poly-G K-mers R2 3prime": {
+        "value": 863069
+    },
+    "Remaining poly-G K-mers R2 3prime %": {
+        "value": 0.23
+    },
+    "Poly-G soft trimmed reads unfiltered R1 3prime": {
+        "value": 1083650
+    },
+    "Poly-G soft trimmed reads unfiltered R1 3prime %": {
+        "value": 0.29
+    },
+    "Poly-G soft trimmed reads unfiltered R2 3prime": {
+        "value": 2802082
+    },
+    "Poly-G soft trimmed reads unfiltered R2 3prime %": {
+        "value": 0.74
+    }
+}
