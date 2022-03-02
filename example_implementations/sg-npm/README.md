@@ -2,8 +2,10 @@
 
 ## Dependencies
 
-- [mosdepth](https://github.com/brentp/mosdepth)
-- [datamash](https://www.gnu.org/software/datamash/)
+- [mosdepth 0.2.6](https://github.com/brentp/mosdepth)
+- [datamash 1.7](https://www.gnu.org/software/datamash/)
+- [bedtools 2.29.2](https://bedtools.readthedocs.io/en/latest/index.html)
+- Python 3.6.5
 
 ## Usage
 
