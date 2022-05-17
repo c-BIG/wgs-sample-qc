@@ -12,7 +12,7 @@ comprised of members from the 1000 Genomes Project Phase 3 dataset, as well as D
 
 See https://registry.opendata.aws/ilmn-dragen-1kgp/ for more details.
 
-
+---
 
 **Resource type** public S3 Bucket
 
@@ -21,6 +21,8 @@ See https://registry.opendata.aws/ilmn-dragen-1kgp/ for more details.
 **AWS Region** us-west-2
 
 **AWS CLI Access (No AWS account required)** `aws s3 ls --no-sign-request s3://1000genomes-dragen-3.7.6/`
+
+---
 
 **Prototypical path and (WGS sample QC relevant) data content**
 ```
