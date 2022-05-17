@@ -1,0 +1,3 @@
+[submodule "example_implementations/sg-npm/NPM-sample-qc"]
+	path = example_implementations/sg-npm/NPM-sample-qc
+	url = https://github.com/c-BIG/NPM-sample-qc
