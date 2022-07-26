@@ -1,1 +1,2 @@
-launch.py + input.csv :  npm-sample-qc pipeline on 100 selected aws-open-registry 1000genomes benchmarking
+* input.csv : selection of 100 aws-open-registry 1000genomes WGS data for pipeline benchmarking purpose
+* launch.py : helper script to run npm-sample-qc pipeline on `input.csv` selected aws-open-registry 1000genomes data
